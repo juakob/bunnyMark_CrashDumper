@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="BunnyMark" package="org.openfl.samples.bunnymark" version="1.0.0" company="OpenFL" />
+	<app main="BunnyMark" path="Export" file="BunnyMark"  render="software" />
+	
+	<source path="Source" />
+
+	<haxelib name="openfl" />
+	<haxelib name="crashdumper"/>
+	<assets path="Assets" rename="assets" exclude="*.svg" />
+	<icon path="Assets/openfl.svg" />
+	
+	<haxedef name="HXCPP_STACK_LINE"/>
+	<haxedef name="HXCPP_STACK_TRACE"/>
+	
+</project>
